@@ -1,7 +1,6 @@
 export PATH="$HOME/.keys/scripts:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR=nano
-export BROWSER="brave"
 export COLORTERM=truecolor
 #export TERM="xterm-kitty"
 export TERM=xterm-256color
