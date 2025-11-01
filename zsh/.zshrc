@@ -76,6 +76,7 @@ wifi-reconnect(){
 }
 
 # preferences
+alias gecmis="cat ~/.cache/zshhistory"
 alias vi="nvim"
 alias vim="vi"
 alias sudo='sudo '
