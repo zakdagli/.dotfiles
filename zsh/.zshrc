@@ -76,7 +76,6 @@ wifi-reconnect(){
 }
 
 # preferences
-alias gecmis="cat ~/.cache/zshhistory"
 alias vi="nvim"
 alias vim="vi"
 alias sudo='sudo '
@@ -88,6 +87,11 @@ alias top="btop"
 alias mv='mv -iv'
 alias cp='cp -iv'
 alias ln='ln -iv'
+
+#zsh geçmiş
+gecmis() {
+  tail -n "${1:-100}" ~/.cache/zshhistory
+}
 
 if (( ${+aliases[l]} )); then unalias l; fi
 if (( ${+aliases[ls]} )); then unalias ls; fi
